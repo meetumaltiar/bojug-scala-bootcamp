@@ -1,0 +1,15 @@
+package com.bojug.scalatest
+
+import org.scalatest.FunSuite
+
+class EmployeeFunSuiteTest extends FunSuite {
+
+  test("employees with same name are same") {
+    val emp1 = Employee("john")
+    val emp2 = Employee("john")
+    emp1 === emp2
+  }
+
+}
+
+case class Employee(name: String)
