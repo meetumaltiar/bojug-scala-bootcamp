@@ -8,7 +8,7 @@ class EmployeeFunSuiteTest extends FunSuite {
   test("employees with same name are same") {
     val emp1 = Employee("john")
     val emp2 = Employee("john")
-    emp1 === emp2
+    assert(emp1 === emp2)
   }
 
 }
