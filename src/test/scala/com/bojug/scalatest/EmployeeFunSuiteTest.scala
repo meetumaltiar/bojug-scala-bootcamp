@@ -2,6 +2,7 @@ package com.bojug.scalatest
 
 import org.scalatest.FunSuite
 import com.bojug.scala.Employee
+import com.bojug.scala.Employee
 
 class EmployeeFunSuiteTest extends FunSuite {
 
