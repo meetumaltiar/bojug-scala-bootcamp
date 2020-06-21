@@ -1,6 +1,6 @@
 package com.bojug.scala.collections
 
-object MapFilterFlatMapForExpressionApp {
+object MapFilterFlatMapForExpressionApp extends App {
   val xs = List(1, 2, 3)
   val ys = xs map (x => x + 1)
   println(ys)

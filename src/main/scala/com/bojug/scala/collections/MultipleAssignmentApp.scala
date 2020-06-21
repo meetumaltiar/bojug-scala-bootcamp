@@ -1,6 +1,6 @@
 package com.bojug.scala.collections
 
-object MultipleAssignmentApp {
+object MultipleAssignmentApp extends App {
   val people = List(Person("John", 23), Person("Jack", 13), Person("Mary", 17), Person("May", 43))
   val (minors, adults) = people partition (_.age < 18)
   println(minors)
