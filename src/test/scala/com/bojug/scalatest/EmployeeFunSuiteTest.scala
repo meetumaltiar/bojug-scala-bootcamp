@@ -1,9 +1,9 @@
 package com.bojug.scalatest
 
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 import com.bojug.scala.Employee
 
-class EmployeeFunSuiteTest extends FunSuite {
+class EmployeeFunSuiteTest extends AnyFunSuite {
 
   test("employees with same name are same") {
     val emp1 = Employee("john")
